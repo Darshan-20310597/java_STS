@@ -37,6 +37,7 @@ public class LoginService {
 			//mongoTemplate.save(creds, "UserCrendtials");
 	        System.out.println("Posted!!!");
 	        emailresponse = "Success ";
+	        System.out.println("Git Commit");
 	    }
 	    else {
 	    	emailresponse = "Failed";
